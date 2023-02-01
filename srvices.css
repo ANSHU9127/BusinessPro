@@ -1,0 +1,85 @@
+.Service-Grid {
+    Background: #Fcfcfc;
+  }
+   .Service-Title H4 {
+    Position: Relative;
+    Display: Inline-Block;
+  }
+  .Service-Icon {
+    Position: Relative;
+  }
+  .Service-Title P {
+    Padding: 0 190px;
+    Margin-Bottom: 10px;
+  }
+  .About-Info-Text H2 {
+    Margin-Bottom: 23px;
+    Text-Transform: Capitalize;
+    Font-Weight: 700;
+    Line-Height: .9;
+  }
+  .About-Info-Text P {
+    Padding: 0 100px;
+    Font-Size: 18px;
+    Margin-Bottom: 26px;
+      Position: Relative;
+  }
+  .About-Content P {
+    Margin-Bottom: 0;
+  }
+  .About-Info-Text A {
+    Margin-Bottom: 20px;
+      Position: Relative;
+  }
+  .Service-Icon I {
+    Font-Size: 40px;
+    Color: #E8bc00;
+    Margin-Bottom: 20px;
+    Display: Inline-Block;
+  }
+  .Service-Wrap {
+    Border: 1px Solid #E6e6e6;
+    Padding: 50px 30px;
+      Position: Relative;
+  }
+  
+  .Service-Wrap P{
+      Position: Relative;
+  }
+  
+  .Service-Wrap:hover {
+    Background-Image: Url(Https://I.Ibb.Co/MykzQks/Services1.Jpg);
+    Background-Size: Cover;
+    Background-Position: Center Center;
+    Background-Attachment: Local;
+    Transition: All .5s;
+  }
+  
+  .Service-Wrap:hover:before {
+    Background: Rgba(0, 0, 0, 0.2901960784313726);
+    Position: Absolute;
+    Height: 100%;
+    Width: 100%;
+    Left: 0px;
+    Content: "";
+    Top: 0;
+    Opacity: 1;
+  }
+  
+  .Service-Wrap:hover H4,.Service-Wrap:hover P{
+    Color: #Fff;
+  }
+  .Service-Wrap H4 {
+    Font-Weight: 600;
+    Color: #1e2331;
+    Margin-Bottom: 17px;
+    Font-Size: 18px;
+    Text-Transform: Capitalize;
+      Position: Relative;
+  }
+  .Service-Wrap A {
+    Font-Size: 14px;
+    Font-Weight: 600;
+      Position: Relative;
+  }
+  
